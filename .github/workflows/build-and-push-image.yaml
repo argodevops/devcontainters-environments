@@ -17,7 +17,7 @@ on:
 jobs:
   release:
     if: github.ref_name == 'main'
-    runs-on: devcontainer-image-builder-ubuntu
+    runs-on: ubuntu-latest
     permissions:
       contents: write # to be able to publish a GitHub release
       issues: write # to be able to comment on released issues
