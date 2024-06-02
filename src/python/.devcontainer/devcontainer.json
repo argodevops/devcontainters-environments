@@ -1,7 +1,6 @@
 {
 	"dockerFile": "Dockerfile",
 	"features": {
-		"ghcr.io/devcontainers-contrib/features/markdownlint-cli:1": {},
 	},
 	// Configure tool-specific properties.
 	"customizations": {
