@@ -40,7 +40,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -e
+          set -x
+          npm install -g @devcontainers/cli
 
-          # Build and push images
+          # Build and push image
+          devcontainer build --workspace-folder src/python. --push true --image-name python:latest
          
