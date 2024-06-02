@@ -1,7 +1,21 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/python",
 	"features": {
-		"ghcr.io/devcontainers-contrib/features/pre-commit:2": {}
+		"ghcr.io/devcontainers-contrib/features/black:2": {},
+		"ghcr.io/devcontainers-contrib/features/cz-cli:1": {},
+		"ghcr.io/devcontainers-contrib/features/flake8:2": {},
+		"ghcr.io/devcontainers-contrib/features/isort:2": {},
+		"ghcr.io/devcontainers-contrib/features/markdownlint-cli:1": {},
+		"ghcr.io/devcontainers-contrib/features/mypy:2": {},
+		"ghcr.io/devcontainers-contrib/features/pre-commit:2": {},
+		"ghcr.io/devcontainers-contrib/features/pyinfra:2": {},
+		"ghcr.io/devcontainers-contrib/features/pylint:2": {},
+		"ghcr.io/devcontainers-contrib/features/ruff:1": {},
+		"ghcr.io/devcontainers-contrib/features/twine:2": {},
+		"ghcr.io/devcontainers-contrib/features/vulture:2": {},
+		"ghcr.io/devcontainers-contrib/features/yamllint:2": {},
+        "ghcr.io/guiyomh/features/vim": {},
+        "ghcr.io/frntn/devcontainers-features/newman:latest": {}
 	},
 	// Configure tool-specific properties.
 	"customizations": {
@@ -10,7 +24,21 @@
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
 				"python.defaultInterpreterPath": "/usr/local/bin/python"
-			}
+			},
+			"extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter",
+                "njpwerner.autodocstring",
+                "visualstudioexptteam.vscodeintellicode",
+                "sumneko.lua",
+                "redhat.vscode-yaml",
+                "dbaeumer.vscode-eslint",
+                "eamodio.gitlens",
+                "esbenp.prettier-vscode",
+                "streetsidesoftware.code-spell-checker",
+                "DavidAnson.vscode-markdownlint"
+			]
 		}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
