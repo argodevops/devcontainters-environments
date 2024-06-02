@@ -44,5 +44,5 @@ jobs:
           npm install -g @devcontainers/cli
 
           # Build and push image
-          devcontainer build --workspace-folder src/python --push true --image-name python-test:latest
+          devcontainer build --workspace-folder src/python --push true --image-name ghcr.io/argodevops/python:latest
          
