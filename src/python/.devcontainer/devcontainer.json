@@ -1,5 +1,5 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/python",
+	"dockerFile": "Dockerfile",
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/black:2": {},
 		"ghcr.io/devcontainers-contrib/features/cz-cli:1": {},
