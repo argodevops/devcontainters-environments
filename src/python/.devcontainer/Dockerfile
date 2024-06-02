@@ -23,4 +23,4 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && rm -rf /var/lib/apt/lists/*
 
 # [Optional] Uncomment this line to install global node packages.
-RUN source /usr/local/share/nvm/nvm.sh && npm install -g husky
+RUN npm install -g husky
