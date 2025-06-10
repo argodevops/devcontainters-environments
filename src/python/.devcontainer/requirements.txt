@@ -2,7 +2,7 @@ black==24.4.2
 commitizen==3.27.0
 isort==5.13.2
 pre-commit==2.21.0
-requests==2.32.2
+requests==2.32.4
 ruff==0.4.7
 twine==5.1.0
 vulture==2.11
